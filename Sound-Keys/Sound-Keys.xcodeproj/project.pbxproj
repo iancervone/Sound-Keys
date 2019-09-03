@@ -38,6 +38,7 @@
 		3CF009F4231F06A20000D25A = {
 			isa = PBXGroup;
 			children = (
+				3CF00A14231F11CA0000D25A /* Sounds */,
 				3CF009FF231F06A20000D25A /* Sound-Keys */,
 				3CF009FE231F06A20000D25A /* Products */,
 			);
@@ -62,6 +63,13 @@
 				3CF00A0C231F06A30000D25A /* Info.plist */,
 			);
 			path = "Sound-Keys";
+			sourceTree = "<group>";
+		};
+		3CF00A14231F11CA0000D25A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

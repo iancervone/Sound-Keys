@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,91 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Sound_Keys" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y7F-m5-W5d">
+                                <rect key="frame" x="22" y="112" width="370" height="71"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="SoundKeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m4c-yF-hNY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70h-23-QNw">
+                                <rect key="frame" x="32" y="213" width="350" height="71"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="SoundKeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Mh-b6-SoH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9M-1J-0sr">
+                                <rect key="frame" x="42" y="314" width="330" height="71"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="SoundKeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p6f-ZD-pJj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdV-OS-KWQ">
+                                <rect key="frame" x="52" y="415" width="310" height="71"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="SoundKeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Us8-ij-d8Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Loo-bL-3up">
+                                <rect key="frame" x="62" y="516" width="290" height="71"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="SoundKeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dwb-NI-27Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ez7-qb-utS">
+                                <rect key="frame" x="72" y="617" width="270" height="71"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="SoundKeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dcs-h2-HmU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egz-qF-fMx">
+                                <rect key="frame" x="82" y="718" width="250" height="71"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="SoundKeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t2H-qQ-jT7"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Egz-qF-fMx" firstAttribute="height" secondItem="Ez7-qb-utS" secondAttribute="height" id="1ol-Kd-kyK"/>
+                            <constraint firstItem="c9M-1J-0sr" firstAttribute="top" secondItem="70h-23-QNw" secondAttribute="bottom" constant="30" id="2iq-yu-jD6"/>
+                            <constraint firstItem="70h-23-QNw" firstAttribute="top" secondItem="Y7F-m5-W5d" secondAttribute="bottom" constant="30" id="5oo-oG-bVo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Egz-qF-fMx" secondAttribute="bottom" constant="73" id="5zS-oS-VNZ"/>
+                            <constraint firstItem="Ez7-qb-utS" firstAttribute="top" secondItem="Loo-bL-3up" secondAttribute="bottom" constant="30" id="AJw-7i-xUk"/>
+                            <constraint firstItem="c9M-1J-0sr" firstAttribute="centerX" secondItem="70h-23-QNw" secondAttribute="centerX" id="CSg-yk-BKE"/>
+                            <constraint firstItem="c9M-1J-0sr" firstAttribute="height" secondItem="70h-23-QNw" secondAttribute="height" id="DMC-Rs-YSO"/>
+                            <constraint firstItem="Loo-bL-3up" firstAttribute="centerX" secondItem="jdV-OS-KWQ" secondAttribute="centerX" id="Gnj-6g-Itu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y7F-m5-W5d" secondAttribute="bottom" constant="679" id="Mbu-K4-Yde"/>
+                            <constraint firstItem="jdV-OS-KWQ" firstAttribute="top" secondItem="c9M-1J-0sr" secondAttribute="bottom" constant="30" id="Ttm-vb-btk"/>
+                            <constraint firstItem="Loo-bL-3up" firstAttribute="top" secondItem="jdV-OS-KWQ" secondAttribute="bottom" constant="30" id="Xht-Ke-iSe"/>
+                            <constraint firstItem="Egz-qF-fMx" firstAttribute="centerX" secondItem="Ez7-qb-utS" secondAttribute="centerX" id="Y7W-4h-ts0"/>
+                            <constraint firstItem="Y7F-m5-W5d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="68" id="ZRS-i5-5J3"/>
+                            <constraint firstItem="Ez7-qb-utS" firstAttribute="height" secondItem="Loo-bL-3up" secondAttribute="height" id="fNm-I1-fXE"/>
+                            <constraint firstItem="jdV-OS-KWQ" firstAttribute="centerX" secondItem="c9M-1J-0sr" secondAttribute="centerX" id="jRk-ki-vV6"/>
+                            <constraint firstItem="70h-23-QNw" firstAttribute="height" secondItem="Y7F-m5-W5d" secondAttribute="height" id="jZw-Gz-ttH"/>
+                            <constraint firstItem="jdV-OS-KWQ" firstAttribute="height" secondItem="c9M-1J-0sr" secondAttribute="height" id="pyM-a7-ycW"/>
+                            <constraint firstItem="Ez7-qb-utS" firstAttribute="centerX" secondItem="Loo-bL-3up" secondAttribute="centerX" id="uBw-HW-ihI"/>
+                            <constraint firstItem="Egz-qF-fMx" firstAttribute="top" secondItem="Ez7-qb-utS" secondAttribute="bottom" constant="30" id="vav-UP-yHq"/>
+                            <constraint firstItem="Loo-bL-3up" firstAttribute="height" secondItem="jdV-OS-KWQ" secondAttribute="height" id="vop-Rc-3IM"/>
+                            <constraint firstItem="70h-23-QNw" firstAttribute="centerX" secondItem="Y7F-m5-W5d" secondAttribute="centerX" id="xQz-bf-Lez"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
         </scene>
     </scenes>
 </document>
