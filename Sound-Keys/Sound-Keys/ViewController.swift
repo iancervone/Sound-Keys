@@ -15,7 +15,7 @@ class ViewController: UIViewController {
   var player: AVAudioPlayer?
   
   @IBAction func SoundKeyButton(_ sender: UIButton) {
-    let url = Bundle.main.url(forResource: "note1", withExtension: "wav")!
+    let url = Bundle.main.url(forResource: "note\(sender.tag)", withExtension: "wav")!
     do {
       player = try AVAudioPlayer(contentsOf: url)
       guard let player = player else { return }

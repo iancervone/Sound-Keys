@@ -18,51 +18,72 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y7F-m5-W5d">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y7F-m5-W5d">
                                 <rect key="frame" x="22" y="112" width="370" height="71"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Y7F-m5-W5d" secondAttribute="height" multiplier="370:71" id="Tvq-qK-owP"/>
+                                </constraints>
                                 <connections>
                                     <action selector="SoundKeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m4c-yF-hNY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70h-23-QNw">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70h-23-QNw">
                                 <rect key="frame" x="32" y="213" width="350" height="71"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="70h-23-QNw" secondAttribute="height" multiplier="350:71" id="o2x-Zd-Xgj"/>
+                                </constraints>
                                 <connections>
                                     <action selector="SoundKeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Mh-b6-SoH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9M-1J-0sr">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9M-1J-0sr">
                                 <rect key="frame" x="42" y="314" width="330" height="71"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="c9M-1J-0sr" secondAttribute="height" multiplier="330:71" id="Kbw-S8-eFM"/>
+                                </constraints>
                                 <connections>
                                     <action selector="SoundKeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p6f-ZD-pJj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdV-OS-KWQ">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdV-OS-KWQ">
                                 <rect key="frame" x="52" y="415" width="310" height="71"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jdV-OS-KWQ" secondAttribute="height" multiplier="310:71" id="LER-Cj-fCn"/>
+                                </constraints>
                                 <connections>
                                     <action selector="SoundKeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Us8-ij-d8Y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Loo-bL-3up">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Loo-bL-3up">
                                 <rect key="frame" x="62" y="516" width="290" height="71"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Loo-bL-3up" secondAttribute="height" multiplier="290:71" id="6Sg-la-zcW"/>
+                                </constraints>
                                 <connections>
                                     <action selector="SoundKeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dwb-NI-27Y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ez7-qb-utS">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ez7-qb-utS">
                                 <rect key="frame" x="72" y="617" width="270" height="71"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ez7-qb-utS" secondAttribute="height" multiplier="270:71" id="2cU-m5-kxz"/>
+                                </constraints>
                                 <connections>
                                     <action selector="SoundKeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dcs-h2-HmU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egz-qF-fMx">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egz-qF-fMx">
                                 <rect key="frame" x="82" y="718" width="250" height="71"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Egz-qF-fMx" secondAttribute="height" multiplier="250:71" id="mp4-z4-JQB"/>
+                                </constraints>
                                 <connections>
                                     <action selector="SoundKeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t2H-qQ-jT7"/>
                                 </connections>
@@ -80,6 +101,7 @@
                             <constraint firstItem="Loo-bL-3up" firstAttribute="centerX" secondItem="jdV-OS-KWQ" secondAttribute="centerX" id="Gnj-6g-Itu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y7F-m5-W5d" secondAttribute="bottom" constant="679" id="Mbu-K4-Yde"/>
                             <constraint firstItem="jdV-OS-KWQ" firstAttribute="top" secondItem="c9M-1J-0sr" secondAttribute="bottom" constant="30" id="Ttm-vb-btk"/>
+                            <constraint firstItem="Y7F-m5-W5d" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Was-n0-mdx"/>
                             <constraint firstItem="Loo-bL-3up" firstAttribute="top" secondItem="jdV-OS-KWQ" secondAttribute="bottom" constant="30" id="Xht-Ke-iSe"/>
                             <constraint firstItem="Egz-qF-fMx" firstAttribute="centerX" secondItem="Ez7-qb-utS" secondAttribute="centerX" id="Y7W-4h-ts0"/>
                             <constraint firstItem="Y7F-m5-W5d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="68" id="ZRS-i5-5J3"/>
